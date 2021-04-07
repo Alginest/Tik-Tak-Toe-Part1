@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding: 0;
+}
+/* game playground*/
+body {
+    background-color: white; 
+}
+
+.wrapper {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: black;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    border: 5px solid black;
+}
+.wrapper .box {
+    background-color: white;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+/* X value */ 
+#playerX {
+    background-image: url("x.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+/* O value*/
+
